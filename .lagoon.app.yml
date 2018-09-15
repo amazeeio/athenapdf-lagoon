@@ -95,6 +95,8 @@ objects:
               value: ${SERVICE_NAME}
             - name: CRONJOBS
               value: ${CRONJOBS}
+            - name: WEAVER_AUTH_KEY
+              value: lagoon-athenapdf
           resources:
             requests:
               cpu: 10m
