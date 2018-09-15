@@ -1,1 +1,7 @@
 docker-compose-yaml: docker-compose.yml
+
+environments:
+  master:
+    routes:
+      - athenapdf:
+        - athenapdf.amazeeio.services
