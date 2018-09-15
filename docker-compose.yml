@@ -1,0 +1,11 @@
+version: '2.3'
+
+x-lagoon-project:
+  &lagoon-project athenapdf
+
+services:
+  athenapdf:
+    image: arachnysdocker/athenapdf-service:2.13.0
+    labels:
+      lagoon.type: nginx
+      lagoon.template: .lagoon.app.yml
